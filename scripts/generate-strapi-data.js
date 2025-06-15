@@ -71,4 +71,4 @@ const createEntries = async () => {
   }
 };
 
-createEntries();
+module.exports = createEntries;
