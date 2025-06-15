@@ -3,8 +3,7 @@ const { faker } = require('@faker-js/faker');
 
 // === CONFIGURATION ===
 const API_URL = 'https://your-strapi-app.onrender.com/api';
-const API_TOKEN = 'afee3f43363cf7695b0b987c4e3b120c65607c7cb2a97027d606744f020830ff52014c2d6cfe40ad289c08bf29f71c607ac885d4d9a54bdc66265e0b69d0b567bc6b86c060a592e169e2f473c53ba7a79a5bfde462737b90363d88f9438eff3fbbae1b441334dfacc29f0cd4ef6af33a2bcfe06e8fa21f570284ced269a13b5c'; // <-- Replace this
-
+const API_TOKEN = '20e47008d3b21d79e66c81402880b9124ecdb03c5edd20bd8054e0dad3cb5435739fbded141ffeba85e8f1e83ecf784e8095848813cf718eef2237d0c9379495c9b86420a10783d2fa3e900b653cc76c780a7b152be9107aa540084eae57c4ef6b3c69783ce6c9156ef5da34c8a0bac004e4639d0e9ac3b2c3ed11a41003865b'
 const headers = {
   Authorization: `Bearer ${API_TOKEN}`,
   'Content-Type': 'application/json',
