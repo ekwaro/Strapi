@@ -2,7 +2,7 @@ const axios = require('axios');
 const { faker } = require('@faker-js/faker');
 
 // === CONFIGURATION ===
-const API_URL = 'http://localhost:1337/api';
+const API_URL = 'https://your-strapi-app.onrender.com/api';
 const API_TOKEN = 'afee3f43363cf7695b0b987c4e3b120c65607c7cb2a97027d606744f020830ff52014c2d6cfe40ad289c08bf29f71c607ac885d4d9a54bdc66265e0b69d0b567bc6b86c060a592e169e2f473c53ba7a79a5bfde462737b90363d88f9438eff3fbbae1b441334dfacc29f0cd4ef6af33a2bcfe06e8fa21f570284ced269a13b5c'; // <-- Replace this
 
 const headers = {
