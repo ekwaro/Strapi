@@ -3,7 +3,7 @@ const { faker } = require('@faker-js/faker');
 
 // === CONFIGURATION ===
 const API_URL = 'https://news-feed-vooc.onrender.com/api';
-const API_TOKEN = '20e47008d3b21d79e66c81402880b9124ecdb03c5edd20bd8054e0dad3cb5435739fbded141ffeba85e8f1e83ecf784e8095848813cf718eef2237d0c9379495c9b86420a10783d2fa3e900b653cc76c780a7b152be9107aa540084eae57c4ef6b3c69783ce6c9156ef5da34c8a0bac004e4639d0e9ac3b2c3ed11a41003865b'
+const API_TOKEN = '0c36869b3d581644f2946ec372a77db79b163e390629ff6b7147a35b85af8b2f67112e28159223a0d586f94bec912aa2a185100b4b269f71a757f75525b42d6d6d01c663ab7853e4f8bf15366ee821f61672a438b6c93524c705ea887a343d80e354194de7ef9252fc1270c1688f36e1880b784c7502920578b5b030445d7983'
 const headers = {
   Authorization: `Bearer ${API_TOKEN}`,
   'Content-Type': 'application/json',
